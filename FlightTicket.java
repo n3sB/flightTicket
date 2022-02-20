@@ -15,7 +15,7 @@ public class FlightTicket {
         System.out.print("Enter your age: ");
         age = scanner.nextInt();
 
-        System.out.print("Enter travel type (1 => One Way , 2 => Round Trip ): ");
+        System.out.print("Enter travel type (1 => Depart , 2 => Round Trip ): ");
         travelType = scanner.nextInt();
 
         customPrice = km * pricePerKm;
